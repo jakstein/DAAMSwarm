@@ -2,6 +2,8 @@
 
 A SwarmUI extension that provides **Diffusion Attentive Attribution Maps (DAAM)** functionality, allowing users to visualize cross-attention heatmaps in Stable Diffusion models. This extension helps you understand exactly which parts of your prompt influence specific regions of the generated image.
 
+[![2252-masterpiece-best-quality-amazing-quality-XLNova-3-DCG-XL-Illustrious-v3-0-720282600.webp](https://i.postimg.cc/V6jprKwM/2252-masterpiece-best-quality-amazing-quality-XLNova-3-DCG-XL-Illustrious-v3-0-720282600.webp)](https://postimg.cc/cgLXPMr4)
+
 ## Features
 
 - Cross-attention heatmap visualization for positive and negative prompts
