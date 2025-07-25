@@ -3,6 +3,10 @@
  * provides frontend functionality for attention heatmap visualization
  */
 
+// Add install button for DAAM ComfyUI dependency
+// addInstallButton(groupId, featureId, installId, buttonText)
+addInstallButton('daamanalysis', 'comfyui_daam', 'comfyui_daam', 'Install DAAM ComfyUI Support');
+
 // DAAM Extension namespace
 window.DAAMSwarm = {
     

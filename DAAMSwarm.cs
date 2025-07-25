@@ -52,8 +52,8 @@ public class DAAMSwarm : Extension
         ComfyUIBackendExtension.NodeToFeatureMap["KSamplerDAAM"] = "comfyui_daam";
         ComfyUIBackendExtension.NodeToFeatureMap["DAAMAnalyzer"] = "comfyui_daam";
         
-        // create parameter group
-        DAAMGroup = new("DAAM Analysis", Toggles: false, Open: false, IsAdvanced: true);
+        // create parameter group (note: Toggles should be true to make group work properly with install buttons)
+        DAAMGroup = new("DAAM Analysis", Toggles: true, Open: false, IsAdvanced: true);
         
         // register parameters
         DAAMEnabled = T2IParamTypes.Register<bool>(new("Enable DAAM Analysis", 
