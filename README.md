@@ -20,7 +20,7 @@ A SwarmUI extension that provides **Diffusion Attentive Attribution Maps (DAAM)*
 
 3. Restart SwarmUI to load the extension
 
-3. Restart both ComfyUI and SwarmUI
+4. Press **Install DAAM ComfyUI Support** button
 
 ## Usage
 
